@@ -13,7 +13,7 @@ target/
 libs/
 tmp/
 node_modules/
-
+/out/*
 # OS Files #
 .DS_Store
 
@@ -69,7 +69,7 @@ nb-configuration.xml
 *.iws
 .idea/
 atlassian-ide-plugin.xml
-out/
+
 
 
 ######################
