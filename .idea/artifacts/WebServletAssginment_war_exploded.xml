@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Assignment:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/Assignment_war_exploded</output-path>
+  <artifact type="exploded-war" name="WebServletAssginment:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebServletAssginment_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Assignment" />
+          <element id="module-output" name="WebServletAssginment" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
@@ -31,7 +31,7 @@
           <element id="library" level="project" name="Maven: opensymphony:sitemesh:2.4.2" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="Assignment/web/Web" />
+      <element id="javaee-facet-resources" facet="WebServletAssginment/web/Web" />
     </root>
   </artifact>
 </component>
