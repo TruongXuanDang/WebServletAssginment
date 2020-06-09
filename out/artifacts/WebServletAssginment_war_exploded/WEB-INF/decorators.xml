@@ -2,6 +2,7 @@
 <decorators defaultdir="/decorators">
     <excludes>
         <pattern>/api*</pattern>
+<<<<<<< HEAD
 <!--        <pattern>/ajax</pattern>-->
     </excludes>
     <decorator name="template" page="admin/admin-template.jsp">
@@ -13,4 +14,17 @@
 <!--    <decorator name="admin" page="admin-template.jsp">-->
 <!--        <pattern>/admin*</pattern>-->
 <!--    </decorator>-->
+=======
+        <!--        <pattern>/ajax</pattern>-->
+    </excludes>
+    <decorator name="template" page="template.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    <!--    <decorator name="login" page="login-template.jsp">-->
+    <!--        <pattern>/login*</pattern>-->
+    <!--    </decorator>-->
+    <!--    <decorator name="admin" page="admin-template.jsp">-->
+    <!--        <pattern>/admin*</pattern>-->
+    <!--    </decorator>-->
+>>>>>>> origin/master
 </decorators>
