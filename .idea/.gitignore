@@ -13,7 +13,7 @@ target/
 libs/
 tmp/
 node_modules/
-/out/*
+**/out/**
 # OS Files #
 .DS_Store
 
