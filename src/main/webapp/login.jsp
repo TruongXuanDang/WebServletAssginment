@@ -1,35 +1,30 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: MINHVC
-  Date: 6/9/2020
-  Time: 11:06 AM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-<html>
-<head>
-    <title>Login</title>
-    <link href="css/style.css" rel="stylesheet"/>
-
-</head>
-<body>
-<div class="login-form">
-    <h1>Bookstore</h1>
-    <div class="form-group ">
-        <input type="text" class="form-control" placeholder="Username " id="UserName">
-        <i class="fa fa-user"></i>
+<div class="breadcrumb">
+    <div class="container">
+        <a class="breadcrumb-item" href="index.html">Home</a>
+        <span class="breadcrumb-item active">Login</span>
     </div>
-    <div class="form-group log-status">
-        <input type="password" class="form-control" placeholder="Password" id="Passwod">
-        <i class="fa fa-lock"></i>
-    </div>
-    <span class="alert">Invalid Credentials</span>
-    <a class="link" href="#">Lost your password?</a>
-    <button type="button" class="log-btn" >Log in</button>
-
-
 </div>
-<script src="js/main.js"></script>
-</body>
-</html>
+<section class="static about-sec">
+    <div class="container">
+        <h1>My Account / Login</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's printer took a galley of type and scrambled it to make a type specimen book. It has survived not only fiveLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem </p>
+        <div class="form">
+            <form>
+                <div class="row">
+                    <div class="col-md-5">
+                        <input placeholder="Enter User Name" required>
+                        <span class="required-star">*</span>
+                    </div>
+                    <div class="col-md-5">
+                        <input type="email" placeholder="Enter Email Address" required>
+                        <span class="required-star">*</span>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <button class="btn black">Login</button>
+                        <h5>not Registered? <a href="register.html">REgister here</a></h5>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
