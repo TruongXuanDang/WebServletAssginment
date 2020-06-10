@@ -105,3 +105,5 @@ derby.log
 
 out/
 target/
+
+src/main/resources/META-INF/persistence.xml
