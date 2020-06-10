@@ -159,8 +159,9 @@ header .cart {
   padding: 0 10px;
   margin-right: 10px;
   position: relative;
-  margin-top: 2px !important; }
-  header .cart .quntity {
+  margin-top: 2px !important;
+}
+  header .cart .quantity {
     font-size: 9px;
     position: absolute;
     top: -3px;
@@ -521,7 +522,7 @@ header .cart {
     right: 50px; }
 
 @media only screen and (max-width: 1024px) {
-  header .cart .quntity {
+  head .cart .quantity {
     font-size: 10px; }
 
   .container {
