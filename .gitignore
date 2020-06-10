@@ -16,7 +16,7 @@ node_modules/
 **/out/**
 # OS Files #
 .DS_Store
-
+/out
 *.class
 
 # Package Files #
