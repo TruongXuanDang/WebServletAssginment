@@ -6,12 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="../tags/tagslib.jsp" %>
 
 <html>
@@ -21,8 +15,11 @@
     <dec:head />
 </head>
 <body>
-<%@ include file="navigation.jsp"%>
-<%@ include file="header.jsp"%>
+<header>
+    <%@ include file="navigation.jsp"%>
+    <%@ include file="header.jsp"%>
+</header>
+
 
 <dec:body />
 
