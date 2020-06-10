@@ -1,7 +1,6 @@
 package com.demo.api;
 
 import com.demo.dao.ProductDAO;
-import com.demo.entity.Product;
 
 import javax.ejb.EJB;
 import javax.ws.rs.GET;

@@ -1,7 +1,6 @@
 package com.demo.entity;
 
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
 @Entity
@@ -22,6 +21,18 @@ public class User {
 
     @Column(name = "phone")
     private String phone;
+
+    @Column(name = "gender")
+    private String gender;
+
+    @Column(name = "avatar")
+    private String avatar;
+
+    @Column(name = "birthday")
+    private java.sql.Date birthday;
+
+    @Column(name = "email")
+    private String email;
 
     public Integer getId() {
         return id;
@@ -53,6 +64,38 @@ public class User {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
+    public java.sql.Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(java.sql.Date birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 }

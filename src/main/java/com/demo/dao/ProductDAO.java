@@ -19,6 +19,7 @@ public class ProductDAO {
     public Integer insertProduct(Product p)
     {
         em = emf.createEntityManager();
+        //jj
         em.getTransaction().begin();
         em.persist(p);
         em.getTransaction().commit();
